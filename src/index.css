@@ -9,11 +9,11 @@ nav .brand-logo {
   position: relative;
 }
 .input-field label {
-  color: white;
+  color: orangered;
 }
 
 .input-field input[type=text]:focus + label {
-  color: white;
+  color: black;
 } 
 
 .input-field input[type=text]:focus {
@@ -22,16 +22,16 @@ nav .brand-logo {
 }
 
 input[type=text]:not(.browser-default) {
-  border-bottom: 1px solid white;
-  color: white;
+  border-bottom: 1px solid black;
+  color: black;
 }
 input[type=text]:not(.browser-default):focus:not([readonly]) {
-  border-bottom: 1px solid white;
-  -webkit-box-shadow: 0 1px 0 0 white;
-  box-shadow: 0 1px 0 0 white;
+  border-bottom: 1px solid black;
+  -webkit-box-shadow: 0 1px 0 0 black;
+  box-shadow: 0 1px 0 0 black;
 }
 input[type=text]:not(.browser-default):focus:not([readonly]) + label {
-  color: white;
+  color: black;
 }
 
 .contenedor-form {
@@ -76,4 +76,8 @@ input[type=text]:not(.browser-default):focus:not([readonly]) + label {
   padding: 1rem!important;
   text-align: center!important;
   color: #FFF!important;
+}
+
+.dropdown-content li>a, .dropdown-content li>span{
+  color:orangered;
 }
